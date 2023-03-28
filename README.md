@@ -6,7 +6,7 @@ target directory if something changed.
 The check will be done in the frequency of the specified time.
 The programm informs the user if a backup was done or not by a desktop notification.
 
-    usage: Simple Backup [-h] basedir backupdir backup_frequency
+    usage: simple-backup [-h] basedir backupdir backup_frequency
 
     Checks a directory for changes and performs a backup if something changed
 
