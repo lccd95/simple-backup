@@ -35,7 +35,7 @@ def perform_backup(basedir, backupdir):
 
 
 if __name__=="__main__":
-    parser = argparse.ArgumentParser(prog="Simple Backup",
+    parser = argparse.ArgumentParser(prog="simple-backup",
             description="Checks a directory for changes and performs a backup if something changed")
 
     parser.add_argument("basedir", help="The directory for which the backups should be done")
